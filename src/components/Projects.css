@@ -1,0 +1,68 @@
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 90%;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.projects-content {
+  /* position: absolute; */
+  /* top: 0; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  /* padding: 45px 0 0 0; */
+  /* background: rgba(24, 26, 32, 0.692); */
+  border-radius: 3px;
+  /* border: 10px solid rgb(24, 26, 32); */
+}
+
+.projects-nav {
+  display: flex;
+  flex-direction: column;
+  height: 10%;
+  width: 35%;
+  justify-content: center;
+  /* align-items: flex-end; */
+}
+
+.projects-nav ul {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: space-around;
+  color: var(--text-inactive);
+  font-size: calc(7px + 1vw);
+  font-weight: 500;
+  align-items: center;
+  list-style-type: none;
+}
+
+.projects-nav li:hover {
+  color: white;
+  transform: none;
+  cursor: pointer;
+}
+
+.react-li {
+  color: white;
+}
+
+.projects-grid {
+  overflow: scroll;
+}
+
+@media (max-width: 600px) {
+  .projects-nav {
+    width: 65%;
+    height: 25%;
+  }
+
+  .projects-nav ul {
+    font-size: calc(9px + 1vw);
+  }
+}
