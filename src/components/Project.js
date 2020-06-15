@@ -14,7 +14,7 @@ const Project = (props) => {
               onClick={props.handleOpen}
               className="button"
               >
-                VIEW SITE
+                SEE MORE
             </Button>
           </div>
         </div>
@@ -23,7 +23,8 @@ const Project = (props) => {
           image={props.projectImg}
           style={{padding: "0"}}
           blurb={props.blurb}
-          link={props.link}
+          website={props.website}
+          gitHub={props.gitHub}
         >
         </CardMedia>
       </div>

@@ -56,8 +56,9 @@ const ProjectModal = (props) => {
             <div className="project-info">
               <h2>{props.projectName}</h2>
               <p>{props.blurb}</p>
-              {props.link &&
-                <a href={props.link} target="_blank">View live site on GitHub Pages</a>
+              <a href={props.website} target="_blank">View live site on GitHub Pages</a>
+              {props.gitHub &&
+                <a href={props.gitHub} target="_blank">Go to code in the repo</a>
               }
             </div>
           </div>

@@ -22,3 +22,7 @@
   font-weight: 500;
   color: #4183c4;
 }
+
+.modal-content a:hover {
+  text-decoration: underline;
+}
